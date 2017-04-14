@@ -18,7 +18,7 @@ body {
   font-size: 100%;
   font-family: "Droid Serif", serif;
   color: #4E4E56;
-  background-color: #668D3C;
+  background-color: white;
 }
 
 a {
@@ -63,17 +63,17 @@ header {
   height: auto;
   line-height: auto;
   text-align: center;
-  background: #668D3C;
+  background: white;
   padding: 20px;
   /*border-bottom: solid;
-  border-color: #668D3C;
+  border-color: #E8E8E8;
   border-width: thick;*/
 }
 footer {
   height: auto;
   line-height: auto;
   text-align: center;
-  background: #855723;
+  background: #333A56;
   padding: 20px;
 }
 header h1 {
@@ -110,10 +110,10 @@ header h1 {
   padding: 1em;
   /*box-shadow: 0 3px 0 #d7e4ed;*/
 }
-.white-block{
+.blue-block{
   width:100%;
   padding:20px;
-  background: white;
+  background: #52658F;
 }
 #contact-button {
   width: 100%;
@@ -126,6 +126,11 @@ table {
 }
 .mission-statement h2{
   text-align: center;
+  color: white;
+}
+.mission-statement p{
+  text-align: center;
+  color: white;
 }
 .cd-tree {
     display:block;
@@ -139,7 +144,7 @@ table {
     border: solid;
     border-radius: 50%;
     border-width: thick;
-    border-color: white;
+    border-color: black;
 }
 
 @media only screen and (max-width: 600px) {
@@ -208,7 +213,7 @@ table {
   left: 5%;
   height: 95%;
   width: 6px;
-  background: white;
+  background: black;
 }
 
 @media only screen and (max-width: 600px) {
@@ -225,6 +230,8 @@ table {
   #cd-timeline {
     margin-top: 3em;
     margin-bottom: 3em;
+    padding-top: 2%;
+    padding-bottom: 2%;
   }
   #cd-timeline::before {
     left: calc(20% - 120px);
@@ -276,11 +283,11 @@ table {
   position: absolute;
   top: 0;
   left: 5%;
-  width: 80px;
+  width: 80px;ß
   height: 80px;
   margin-left: -40px;
   border-radius: 50%;
-  box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 0 4px black, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
 .cd-timeline-img img {
   display: block;
@@ -420,7 +427,6 @@ table {
   background: white;
   border-radius: 0.25em;
   padding: 1em;
-  box-shadow: 0 3px 0 #d7e4ed;
   padding: 1.6em;
   width: calc(90% - 40px);
   margin-left: calc(5% + 80px);
@@ -478,11 +484,8 @@ table {
   .cd-timeline-content {
     position: relative;
     margin-left: 60px;
-    background: white;
     width: calc(100%-120px);
     border-radius: 0.25em;
-    padding: 1em;
-    box-shadow: 0 3px 0 #d7e4ed;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -691,7 +694,7 @@ table {
 #svgContainer {
  z-index: -10;
  position:absolute;
- background-color:#668D3C;
+ background-color:white;
  opacity: 1;
 }
 @media only screen and (max-width: 600px) {
