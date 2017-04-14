@@ -283,7 +283,7 @@ table {
   position: absolute;
   top: 0;
   left: 5%;
-  width: 80px;ß
+  width: 80px;
   height: 80px;
   margin-left: -40px;
   border-radius: 50%;
@@ -426,8 +426,7 @@ table {
   margin-left: 0;
   background: white;
   border-radius: 0.25em;
-  padding: 1em;
-  padding: 1.6em;
+  padding: 0 1em;
   width: calc(90% - 40px);
   margin-left: calc(5% + 80px);
   margin-right: 5%;
@@ -514,7 +513,7 @@ table {
 @media only screen and (min-width: 1170px) {
   .cd-timeline-content {
     margin-left: 0;
-    padding: 1.6em;
+    padding: 0 1.6em;
     width: 60%;
     margin-left: 20%;
     margin-right: 20%;
