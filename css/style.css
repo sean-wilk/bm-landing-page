@@ -117,7 +117,9 @@ header h1 {
 }
 #contact-button {
   width: 100%;
-  padding: 2em 0;
+  padding-bottom: 2em;
+  display: none;
+
 }
 #contact-text {
   padding: 4em 0;
