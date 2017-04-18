@@ -117,12 +117,20 @@ header h1 {
 }
 #contact-button {
   width: 100%;
+  padding: 2em 0;
+}
+#contact-text {
+  padding: 4em 0;
 }
 table {
   margin: 0 auto;
 }
+#copyright-notice {
+  color: white;
+}
 #copyright-notice h2{
   color: white;
+  padding: 2em 0;
 }
 .mission-statement h2{
   text-align: center;
